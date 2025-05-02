@@ -128,7 +128,7 @@
                 "properties": [
                     {
                         "src": "assets/inc-monkey/js/monkey_helper.js",
-                        "integrity": "sha384-o3PSUx9iezLMwr5bttMubRFHHVHt1HYEvNY3Y+6jfBAqb6i9XnnIf8PGG2xQjii7",
+                        "integrity": "sha384-xQetIyBbFy0r8sA0nlTnyGrtixsWgm5l/H/R5fbhE9IYGoPjoPSmNU0FACd1g9i2",
                         "crossorigin": "anonymous"
                     }
                 ]
