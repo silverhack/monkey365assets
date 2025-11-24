@@ -21,7 +21,7 @@ jobs:
         run: |
           echo "message=Thanks for follow [Monkey365](https://github.com/silverhack/monkey365)! This is a tagged release (${{ steps.date.outputs.today }})." >> $GITHUB_ENV
       - name: Checkout code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
       - name: Create Release
         id: create_release
         uses: comnoco/create-release-action@v2.0.5
