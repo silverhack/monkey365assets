@@ -1,0 +1,142 @@
+{
+    "head": {
+        "css": [
+            {
+                "tagName": "link",
+                "properties": [
+                    {
+                        "href": "assets/inc-bootstrap/css/bootstrap.min.css",
+                        "rel": "stylesheet",
+                        "integrity": "sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH",
+                        "crossorigin": "anonymous"
+                    }
+                ]
+            },
+            {
+                "tagName": "link",
+                "properties": [
+                    {
+                        "href": "assets/inc-bootstrap/icons/bootstrap-icons.min.css",
+                        "rel": "stylesheet",
+                        "integrity": "sha384-XGjxtQfXaH2tnPFa9x+ruJTuLE3Aa6LhHSWRr1XeTyhezb4abCG4ccI5AkVDxqC+",
+                        "crossorigin": "anonymous"
+                    }
+                ]
+            },
+            {
+                "tagName": "link",
+                "properties": [
+                    {
+                        "href": "assets/inc-fabric-icons/css/fabric-icons.css",
+                        "rel": "stylesheet",
+                        "integrity": "sha384-+o7QMRmwnLuCjmltijZ66KnFR/JWS3FObGU1sarWF6OY4hvhXTiJr+05tve6YXhz",
+                        "crossorigin": "anonymous"
+                    }
+                ]
+            },
+            {
+                "tagName": "link",
+                "properties": [
+                    {
+                        "href": "assets/inc-datatables/css/datatables.min.css",
+                        "rel": "stylesheet",
+                        "integrity": "sha384-/F3Bo7ZeNleCrEuIV225tNoZWE3PZkctYXfr9sd6ab1LoHrRuR8qF3JPvTyE/a+d",
+                        "crossorigin": "anonymous"
+                    }
+                ]
+            },
+            {
+                "tagName": "link",
+                "properties": [
+                    {
+                        "href": "assets/inc-highlight/styles/default.min.css",
+                        "rel": "stylesheet",
+                        "integrity": "sha384-4Y0nObtF3CbKnh+lpzmAVdAMtQXl+ganWiiv73RcGVdRdfVIya8Cao1C8ZsVRRDz",
+                        "crossorigin": "anonymous"
+                    }
+                ]
+            }
+        ],
+        "JS": [
+            {
+                "tagName": "script",
+                "properties": [
+                    {
+                        "src": "assets/inc-jquery/js/jquery.min.js",
+                        "integrity": "sha384-1H217gwSVyLSIfaLxHbE7dRb3v4mYCKbpQvzx0cegeju1MVsGrX5xXxAvs/HgeFs",
+                        "crossorigin": "anonymous"
+                    }
+                ]
+            },
+            {
+                "tagName": "script",
+                "properties": [
+                    {
+                        "src": "assets/inc-bootstrap/js/bootstrap.bundle.min.js",
+                        "integrity": "sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p",
+                        "crossorigin": "anonymous"
+                    }
+                ]
+            },
+            {
+                "tagName": "script",
+                "properties": [
+                    {
+                        "src": "assets/inc-datatables/js/datatables.min.js",
+                        "integrity": "sha384-JqCGVRdLOsFc7EVAMnun8cjk+DdhjKD3qT/tfZ+qMBHTD6+oNX3Ot8sb5YdwOjkn",
+                        "crossorigin": "anonymous"
+                    }
+                ]
+            },
+            {
+                "tagName": "script",
+                "properties": [
+                    {
+                        "src": "assets/inc-highlight/highlight.min.js",
+                        "integrity": "sha384-t1N9zzA3NvyMZQSr1V/UX5rHMZtdo4L1Fi45J+1JnYNQVmAIHYB3IJaFNq4d0Kb8",
+                        "crossorigin": "anonymous"
+                    }
+                ]
+            },
+            {
+                "tagName": "script",
+                "properties": [
+                    {
+                        "src": "assets/inc-apexcharts/apexcharts.min.js",
+                        "integrity": "sha384-t2NEo3tXGg5o3XZA6klB7RkzBkvmzEiUzxwB10ck/TiOoi8+vKtX3tF/rj3uQ4Wz",
+                        "crossorigin": "anonymous"
+                    }
+                ]
+            }
+        ],
+        "theme": [
+            {
+                "tagName": "link",
+                "properties": [
+                    {
+                        "href": "assets/inc-monkey/css/app.css",
+                        "rel": "stylesheet",
+                        "integrity": "sha384-e+EoJbIqkQRpILmLRFWvYSA9it9tH+I0/NOsgV2sdi5JGHrCzdi69xewHK2F8qBo",
+                        "crossorigin": "anonymous"
+                    }
+                ]
+            }
+        ],
+        "helpers": [
+            {
+                "tagName": "script",
+                "properties": [
+                    {
+                        "src": "assets/inc-monkey/js/monkey_helper.js",
+                        "integrity": "sha384-xQetIyBbFy0r8sA0nlTnyGrtixsWgm5l/H/R5fbhE9IYGoPjoPSmNU0FACd1g9i2",
+                        "crossorigin": "anonymous"
+                    }
+                ]
+            }
+        ]
+    },
+    "repository": {
+        "baseUrl": "https://github.com/silverhack/monkey365assets",
+        "branch": "main"
+    }
+}
