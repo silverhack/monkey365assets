@@ -1,0 +1,59 @@
+name: Create Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  release:
+    name: Create GitHub Release
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v6
+        with:
+          ref: ${{ github.ref_name }}
+          fetch-depth: 0
+
+      - name: Build release message
+        id: release_message
+        run: |
+          {
+            echo 'message<<EOF'
+            echo "Thanks for following [Monkey365](https://github.com/silverhack/monkey365)! This release was generated automatically for tag ${{ github.ref_name }}."
+            echo
+            echo "## Commit"
+            echo "${{ github.sha }}"
+            echo 'EOF'
+          } >> "$GITHUB_OUTPUT"
+
+      - name: Create Release
+        id: create_release
+        uses: comnoco/create-release-action@v2.0.5
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ github.ref_name }}
+          release_name: Release ${{ github.ref_name }}
+          body: ${{ steps.release_message.outputs.message }}
+          draft: false
+          prerelease: false
+
+      - name: Create ZIP file and checksums
+        if: steps.create_release.outcome == 'success'
+        run: |
+          mkdir -p build
+          git archive --format zip --output ./build/assets.zip ${{ github.ref_name }}
+          sha256sum ./build/assets.zip | awk '{print $1}' > ./build/assets.sha256
+          sha512sum ./build/assets.zip | awk '{print $1}' > ./build/assets.sha512
+
+      - name: Upload release assets
+        if: steps.create_release.outcome == 'success'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh release upload "${{ github.ref_name }}" ./build/assets.zip ./build/assets.sha256 ./build/assets.sha512
