@@ -7,7 +7,7 @@
           {
             "href": "assets/inc-bootstrap/css/bootstrap.min.css",
             "rel": "stylesheet",
-            "integrity": "sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH",
+            "integrity": "sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB",
             "crossorigin": "anonymous"
           }
         ]
@@ -73,7 +73,7 @@
         "properties": [
           {
             "src": "assets/inc-bootstrap/js/bootstrap.bundle.min.js",
-            "integrity": "sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p",
+            "integrity": "sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI",
             "crossorigin": "anonymous"
           }
         ]
