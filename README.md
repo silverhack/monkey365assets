@@ -1,3 +1,7 @@
+![Build (main)](https://dev.azure.com/monkey365/monkey365/_apis/build/status/5?branchName=main)
+![Build (develop)](https://dev.azure.com/monkey365/monkey365/_apis/build/status/5?branchName=develop)
+![GitHub Release](https://github.com/silverhack/monkey365assets/actions/workflows/create-release.yml/badge.svg)
+
 # Monkey365 Assets
 Assets used in Monkey365 HTML reports. Don't use directly.
 
