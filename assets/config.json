@@ -7,7 +7,7 @@
           {
             "href": "assets/inc-bootstrap/css/bootstrap.min.css",
             "rel": "stylesheet",
-            "integrity": "sha384-iyVHgWdgbOYA1Qxlw7jRhcp52l0uPEs4zrd0MRrcr1fDCFRPyz0k1VrxB1urC55B",
+            "integrity": "sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH",
             "crossorigin": "anonymous"
           }
         ]
@@ -18,7 +18,7 @@
           {
             "href": "assets/inc-bootstrap/icons/bootstrap-icons.min.css",
             "rel": "stylesheet",
-            "integrity": "sha384-6rWhQrpqmOB/8cwnTXeAzz7lY4NcMft3dq9j5C3b3aS+fcieyqmGN2aNPpwmxF7F",
+            "integrity": "sha384-XGjxtQfXaH2tnPFa9x+ruJTuLE3Aa6LhHSWRr1XeTyhezb4abCG4ccI5AkVDxqC+",
             "crossorigin": "anonymous"
           }
         ]
@@ -29,7 +29,7 @@
           {
             "href": "assets/inc-fabric-icons/css/fabric-icons.css",
             "rel": "stylesheet",
-            "integrity": "sha384-xXIo1ZHED3MHuog2pHCrxKhiMwn6fHs3MRDt27AzDLnYQ0NOxj2Rzp8AIJeEuoz/",
+            "integrity": "sha384-+o7QMRmwnLuCjmltijZ66KnFR/JWS3FObGU1sarWF6OY4hvhXTiJr+05tve6YXhz",
             "crossorigin": "anonymous"
           }
         ]
@@ -40,7 +40,7 @@
           {
             "href": "assets/inc-datatables/css/datatables.min.css",
             "rel": "stylesheet",
-            "integrity": "sha384-JFtoFrR4YHuojEUexI2DhPD3+1wf0tZ58dFFKEPzqywXS5OX9qFMrML0YFtl+QD5",
+            "integrity": "sha384-/F3Bo7ZeNleCrEuIV225tNoZWE3PZkctYXfr9sd6ab1LoHrRuR8qF3JPvTyE/a+d",
             "crossorigin": "anonymous"
           }
         ]
@@ -51,7 +51,7 @@
           {
             "href": "assets/inc-highlight/styles/default.min.css",
             "rel": "stylesheet",
-            "integrity": "sha384-rUENm7cBt3MHU23+pMctx+lO8DcOy4X96fW1KZhN9yedG+utGuMjFXICF1tVncIZ",
+            "integrity": "sha384-4Y0nObtF3CbKnh+lpzmAVdAMtQXl+ganWiiv73RcGVdRdfVIya8Cao1C8ZsVRRDz",
             "crossorigin": "anonymous"
           }
         ]
@@ -63,7 +63,7 @@
         "properties": [
           {
             "src": "assets/inc-jquery/js/jquery.min.js",
-            "integrity": "sha384-apfJm2DWye6itJXDari7QfgbBXzkNeRsr1xgTfEH0SCvYV+NlzqP+MkX/LHMZIPI",
+            "integrity": "sha384-1H217gwSVyLSIfaLxHbE7dRb3v4mYCKbpQvzx0cegeju1MVsGrX5xXxAvs/HgeFs",
             "crossorigin": "anonymous"
           }
         ]
@@ -73,7 +73,7 @@
         "properties": [
           {
             "src": "assets/inc-bootstrap/js/bootstrap.bundle.min.js",
-            "integrity": "sha384-ld2L/kcTVZx61WGwQz7vrkwU7uStBvzRExaQwwPPqM6yLGYgrGuUcKX/O87p9qy9",
+            "integrity": "sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p",
             "crossorigin": "anonymous"
           }
         ]
@@ -83,7 +83,7 @@
         "properties": [
           {
             "src": "assets/inc-datatables/js/datatables.min.js",
-            "integrity": "sha384-OZ8j47osDmgSag6AWoRWmQStkMSRq+ewTrTZgnHzVqk2lrprMBm2BpeQlB21loph",
+            "integrity": "sha384-JqCGVRdLOsFc7EVAMnun8cjk+DdhjKD3qT/tfZ+qMBHTD6+oNX3Ot8sb5YdwOjkn",
             "crossorigin": "anonymous"
           }
         ]
@@ -93,7 +93,7 @@
         "properties": [
           {
             "src": "assets/inc-highlight/highlight.min.js",
-            "integrity": "sha384-+kTfhpuIuNwbpAsA2KKZvKbHmkS7djR1kYrzDRecUYIr5VK8UuaXD3UF7u3HHTnV",
+            "integrity": "sha384-t1N9zzA3NvyMZQSr1V/UX5rHMZtdo4L1Fi45J+1JnYNQVmAIHYB3IJaFNq4d0Kb8",
             "crossorigin": "anonymous"
           }
         ]
@@ -103,7 +103,7 @@
         "properties": [
           {
             "src": "assets/inc-apexcharts/apexcharts.min.js",
-            "integrity": "sha384-JT3wKUs/v8WlKowxfL1gscGsEG/lR+eHUjHHYimAR/7MxiXHzS2kGrRmM8n9Vnph",
+            "integrity": "sha384-t2NEo3tXGg5o3XZA6klB7RkzBkvmzEiUzxwB10ck/TiOoi8+vKtX3tF/rj3uQ4Wz",
             "crossorigin": "anonymous"
           }
         ]
@@ -116,7 +116,7 @@
           {
             "href": "assets/inc-monkey/css/app.css",
             "rel": "stylesheet",
-            "integrity": "sha384-FssNHodaM+dmgGfgWxd9Vpa+N82+x13PSlmRc7Pi7FClZ3A+tIt0Nf1eT7cXm8zj",
+            "integrity": "sha384-e+EoJbIqkQRpILmLRFWvYSA9it9tH+I0/NOsgV2sdi5JGHrCzdi69xewHK2F8qBo",
             "crossorigin": "anonymous"
           }
         ]
@@ -128,7 +128,7 @@
         "properties": [
           {
             "src": "assets/inc-monkey/js/monkey_helper.js",
-            "integrity": "sha384-VEOwRONP+1u2ElTS6hcJLfIyRk4FcoxIs3NA/wolAghY/90mce2tj3XTLP/hEQAD",
+            "integrity": "sha384-xQetIyBbFy0r8sA0nlTnyGrtixsWgm5l/H/R5fbhE9IYGoPjoPSmNU0FACd1g9i2",
             "crossorigin": "anonymous"
           }
         ]
