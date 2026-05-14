@@ -1,5 +1,9 @@
-**main:** ![Build (main)](https://dev.azure.com/monkey365/monkey365/_apis/build/status/5?branchName=main)
-**develop:** ![Build (develop)](https://dev.azure.com/monkey365/monkey365/_apis/build/status/5?branchName=develop)
+**main branch** 
+![Build (main)](https://dev.azure.com/monkey365/monkey365/_apis/build/status/5?branchName=main)
+
+**develop branch**
+![Build (develop)](https://dev.azure.com/monkey365/monkey365/_apis/build/status/5?branchName=develop)
+
 ![GitHub Release](https://github.com/silverhack/monkey365assets/actions/workflows/create-release.yml/badge.svg)
 
 # Monkey365 Assets
@@ -14,7 +18,7 @@ This repository includes:
 
 The following components are also used to generate the HTML report:
 
-* Bootstrap, MIT License - https://getbootstrap.com/docs/5.2/about/license/
+* Bootstrap, MIT License - https://getbootstrap.com/docs/5.3/about/license/
 * DataTables, MIT License - https://www.datatables.net/license/mit
 * MarkDig, BSD-2-Clause license - https://github.com/xoofx/markdig/blob/master/license.txt
 * JQuery, MIT License - https://github.com/jquery/jquery/blob/main/LICENSE.txt
